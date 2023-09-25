@@ -1,0 +1,51 @@
+{
+  "config": {
+    "error": {
+      "already_configured": "已完成配置",
+      "height_limit": "身高超过最大限度 (最大身高: 220 cm)",
+      "invalid_date": "无效的生日配置"
+    },
+    "step": {
+      "options": {
+        "data": {
+          "height": "身高",
+          "impedance": "体脂阻抗传感器",
+          "weight": "体重传感器"
+        },
+        "data_description": {
+          "impedance": "如果你的称没有提供体脂阻抗,就将这个选项置为空."
+        }
+      },
+      "user": {
+        "data": {
+          "birthday": "生日",
+          "gender": "性别",
+          "name": "名称"
+        }
+      }
+    }
+  },
+  "entity_component": {
+    "_": {
+      "name": "小米体重秤",
+      "state": {
+        "ok": "OK",
+        "problem": "异常"
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "height": "身高",
+          "impedance": "体脂阻抗传感器",
+          "weight": "体重传感器"
+        },
+        "data_description": {
+          "impedance": "如果你的称没有提供体脂阻抗,就将这个选项置为空."
+        }
+      }
+    }
+  }
+}
